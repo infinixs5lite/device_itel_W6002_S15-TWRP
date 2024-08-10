@@ -7,8 +7,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_W6002.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_W6002-user \
-    omni_W6002-userdebug \
-    omni_W6002-eng
