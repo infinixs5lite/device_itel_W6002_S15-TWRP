@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from W6002 device
-$(call inherit-product, device/itel/W6002/device.mk
+$(call inherit-product, device/itel/W6002/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 PRODUCT_DEVICE := W6002
 PRODUCT_NAME := omni_W6002
